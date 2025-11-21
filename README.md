@@ -1,5 +1,7 @@
 # VibeRATor
 
+VibeRATor is an insanely basic Windows RAT that I vibe coded with Copilot. This took me like 20 minutes to make.
+
 ## Build and Install
 1. Install Visual Studio Build Tools or MSVC.
 2. Compile:
@@ -10,3 +12,4 @@
 4. Install as service (simplest: use sc to run as own process via srvany or implement service framework). For testing, run the EXE elevated; for production, wrap into a proper Windows Service or use NSSM:
 - Using NSSM: nssm install AgentExample "C:\path\to\agent.exe"
 - Ensure firewall allows inbound access only as required; prefer loopback and use reverse tunnel if remote reach is needed.
+
